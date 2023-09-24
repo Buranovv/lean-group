@@ -1,0 +1,79 @@
+.slick-dots {
+  text-align: start !important;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1 !important;
+  color: #ef7c00 !important;
+  background: #ef7c00;
+}
+.slick-dots li button:before {
+  content: "" !important;
+
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  border: 1px solid #ef7c00;
+
+  color: #ef7c00;
+
+  opacity: 1;
+}
+
+
+
+.slide-body {
+  width: 582px;
+  margin-bottom: 104px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.katalog {
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+
+  background: #ef7c00;
+  text-align: center;
+  gap: 10px;
+
+  color: #fff;
+  font-family: Montserrat R;
+  font-size: 15px;
+  line-height: 20px;
+
+  cursor: pointer;
+}
+.katalog:hover {
+  background-color: #e68a27;
+}
+
+.katalog:active {
+  background-color: #ef7c00;
+}
+
+.text1 {
+  color: #2c2d2e;
+
+  font-family: Montserrat M;
+  font-size: 13px;
+  line-height: 13px;
+}
+.text2 {
+  max-width: 582px;
+
+  color: #2c2d2e;
+
+  font-family: Montserrat R;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.hero .regular-title {
+  margin: 0 !important;
+  color: #2c2d2e;
+}

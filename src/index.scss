@@ -1,6 +1,10 @@
+@import "./assets/scss/fonts";
+@import "./assets/scss/variables";
+
 * {
   margin: 0;
   padding: 0;
+  outline: none;
 }
 
 *,
@@ -14,6 +18,9 @@ a {
 }
 li {
   list-style: none;
+}
+main {
+  background: var(--main-bg-clr);
 }
 
 .container {
@@ -37,4 +44,48 @@ li {
   .container {
     padding: 0;
   }
+}
+
+.regular-title {
+  margin-bottom: 32px;
+
+  color: var(--text-color);
+
+  font-family: Montserrat Sb;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+}
+.reg-title-span {
+  color: #ef7c00;
+}
+
+.reg-btn {
+  width: 190px;
+  margin: 0 auto;
+  margin-top: 58px;
+
+  display: block;
+
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 1px solid #ef7c00;
+
+  background: transparent;
+
+  color: #ef7c00;
+  text-align: center;
+  font-family: Montserrat R;
+  font-size: 15px;
+  line-height: 20px; /* 133.333% */
+
+  cursor: pointer;
+}
+.reg-btn:hover {
+  background: #ef7c00;
+  color: #fff;
+}
+.reg-btn:active {
+  background: #e78924;
+  color: #fff;
 }

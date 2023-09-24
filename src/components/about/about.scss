@@ -1,0 +1,23 @@
+.about {
+  padding: 40px 0;
+  background-color: var(--main-bg-clr);
+}
+
+.content-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-text {
+  max-width: 552px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  color: var(--text-color);
+  font-family: Montserrat R;
+  font-size: 15px;
+  line-height: 20px; /* 133.333% */
+}

@@ -1,0 +1,22 @@
+#hero {
+  margin-top: 81px;
+  padding: 162px 0 120px 0;
+
+  background: url("../../assets/images/hero.png") no-repeat;
+  background-size: cover;
+}
+
+.hero-box {
+  max-width: 582px;
+}
+
+.social-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+
+  position: absolute;
+  right: 64px;
+  top: 45%;
+}

@@ -8,8 +8,9 @@
 
   position: fixed;
   z-index: 100;
+  top: 0;
 
-  background: var(--main-bg-clr);
+  background: var(--header-bg);
 
   &__box {
     padding: 13px 0;
@@ -144,6 +145,7 @@ main {
 
     border-radius: 4px;
   }
+
   .header {
     &__list {
       display: none;

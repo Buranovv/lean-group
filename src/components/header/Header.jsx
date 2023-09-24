@@ -21,10 +21,14 @@ export class Header extends Component {
 
       if (!dark) {
         r.style.setProperty("--text-color", "#fff");
-        r.style.setProperty("--main-bg-clr", "#040020");
+        r.style.setProperty("--main-bg-clr", "rgb(0, 0, 48)");
+        r.style.setProperty("--footer-bg", "#000");
+        r.style.setProperty("--header-bg", "#040020");
       } else {
         r.style.setProperty("--text-color", "#2c2d2e");
         r.style.setProperty("--main-bg-clr", "#fff");
+        r.style.setProperty("--footer-bg", "rgba(0, 16, 61, 0.06)");
+        r.style.setProperty("--header-bg", "#fff");
       }
     };
     const openToggle = () => {

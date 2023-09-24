@@ -1,0 +1,14 @@
+.cer {
+  padding: 40px 0;
+  background-color: var(--main-bg-clr);
+}
+
+.cer .slick-dots {
+  background: var(--main-bg-clr) !important;
+  text-align: center !important;
+  width: 100%;
+}
+.slick-prev,
+.slick-next {
+  display: none !important;
+}

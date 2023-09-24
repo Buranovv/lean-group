@@ -1,0 +1,49 @@
+.team {
+  padding: 40px 0;
+}
+
+.cards {
+  padding: 16px 0;
+
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  width: 203px;
+  text-align: center;
+}
+
+.img-box {
+  margin-bottom: 12px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.card-titl {
+  margin-bottom: 4px;
+
+  color: var(--text-color);
+
+  font-family: Montserrat M;
+  font-size: 15px;
+  line-height: 20px; /* 133.333% */
+}
+.card-text1 {
+  margin-bottom: 16px;
+
+  color: var(--text-color);
+
+  font-family: Montserrat M;
+  font-size: 13px;
+  line-height: 13px; /* 100% */
+
+  opacity: 0.5;
+}
+.card-text2 {
+  color: var(--text-color);
+
+  font-family: Montserrat M;
+  font-size: 13px;
+  line-height: 13px; /* 100% */
+}

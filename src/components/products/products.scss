@@ -1,0 +1,47 @@
+.tab-body {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.products {
+  padding: 40px 0;
+  background: var(--main-bg-clr);
+}
+
+.tab-btns {
+  margin-bottom: 48px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.tab {
+  padding: 10px 20px;
+  border-radius: 61px;
+  border: 1px solid rgba(0, 16, 61, 0.12);
+
+  gap: 10px;
+
+  color: var(--color-primary, #ef7c00);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* fontFootnote */
+  font-family: Montserrat M;
+  font-size: 13px;
+  line-height: 13px; /* 100% */
+
+  cursor: pointer;
+}
+
+.tab-active {
+  background: #ef7c00;
+  color: #fff;
+}
+
+.show {
+  display: flex;
+}
